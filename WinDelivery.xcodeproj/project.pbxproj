@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F44ED6BF8CE80324E367604 /* Pods_WinDeliveryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C524319E9900B47DBADD2AE9 /* Pods_WinDeliveryTests.framework */; };
+		3301E420C4C4DB1773B52716 /* Pods_WinDelivery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D656642A7D33B01E0AC9BF9 /* Pods_WinDelivery.framework */; };
 		6A0F033E21F2BB6B0035A922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F033D21F2BB6B0035A922 /* AppDelegate.swift */; };
-		6A0F034021F2BB6B0035A922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F033F21F2BB6B0035A922 /* ViewController.swift */; };
 		6A0F034321F2BB6B0035A922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0F034121F2BB6B0035A922 /* Main.storyboard */; };
 		6A0F034521F2BB6D0035A922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0F034421F2BB6D0035A922 /* Assets.xcassets */; };
 		6A0F034821F2BB6D0035A922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0F034621F2BB6D0035A922 /* LaunchScreen.storyboard */; };
 		6A0F035321F2BB6D0035A922 /* WinDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F035221F2BB6D0035A922 /* WinDeliveryTests.swift */; };
 		6A0F035E21F2BB6D0035A922 /* WinDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F035D21F2BB6D0035A922 /* WinDeliveryUITests.swift */; };
+		6A0F036C21F2BBC90035A922 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F036B21F2BBC90035A922 /* LoginViewController.swift */; };
+		6A0F036E21F2EFEB0035A922 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F036D21F2EFEB0035A922 /* File.swift */; };
+		6A6F4BDC21F34599001514D3 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F4BDB21F34599001514D3 /* DashBoardViewController.swift */; };
+		6A6F4BDE21F36520001514D3 /* orderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F4BDD21F36520001514D3 /* orderCell.swift */; };
+		6A76DAC121F5084000791ACD /* OrderFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A76DAC021F5084000791ACD /* OrderFormViewController.swift */; };
+		6A7889B321F888BB00E710F4 /* order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7889B221F888BB00E710F4 /* order.swift */; };
+		6ADDCB4521F7169C00384682 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDCB4421F7169C00384682 /* RegisterViewController.swift */; };
+		911E5FA048B4D5BC754B6C38 /* Pods_WinDeliveryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9316AFEE139C7A9C1A8E6170 /* Pods_WinDeliveryUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3DA32ABEC89F1EDEC82E0E /* Pods-WinDeliveryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinDeliveryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WinDeliveryUITests/Pods-WinDeliveryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6A0F033A21F2BB6B0035A922 /* WinDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0F033D21F2BB6B0035A922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A0F033F21F2BB6B0035A922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A0F034221F2BB6B0035A922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A0F034421F2BB6D0035A922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A0F034721F2BB6D0035A922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,21 @@
 		6A0F035921F2BB6D0035A922 /* WinDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0F035D21F2BB6D0035A922 /* WinDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinDeliveryUITests.swift; sourceTree = "<group>"; };
 		6A0F035F21F2BB6D0035A922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0F036B21F2BBC90035A922 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6A0F036D21F2EFEB0035A922 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		6A6F4BDB21F34599001514D3 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		6A6F4BDD21F36520001514D3 /* orderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderCell.swift; sourceTree = "<group>"; };
+		6A76DAC021F5084000791ACD /* OrderFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFormViewController.swift; sourceTree = "<group>"; };
+		6A77A60DFE374DA9585B8CE5 /* Pods-WinDeliveryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinDeliveryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WinDeliveryUITests/Pods-WinDeliveryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A7889B221F888BB00E710F4 /* order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = order.swift; sourceTree = "<group>"; };
+		6ADDCB4421F7169C00384682 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6D656642A7D33B01E0AC9BF9 /* Pods_WinDelivery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinDelivery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9316AFEE139C7A9C1A8E6170 /* Pods_WinDeliveryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinDeliveryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983B9809C2007704BA147B20 /* Pods-WinDeliveryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinDeliveryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WinDeliveryTests/Pods-WinDeliveryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C93BFBDACB6AEF6E95BA0E /* Pods-WinDelivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinDelivery.release.xcconfig"; path = "Pods/Target Support Files/Pods-WinDelivery/Pods-WinDelivery.release.xcconfig"; sourceTree = "<group>"; };
+		BC71B377488150F389B78971 /* Pods-WinDelivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinDelivery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WinDelivery/Pods-WinDelivery.debug.xcconfig"; sourceTree = "<group>"; };
+		C0BD1A7E05D34645E6ADDDB3 /* Pods-WinDeliveryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinDeliveryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WinDeliveryTests/Pods-WinDeliveryTests.release.xcconfig"; sourceTree = "<group>"; };
+		C524319E9900B47DBADD2AE9 /* Pods_WinDeliveryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinDeliveryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3301E420C4C4DB1773B52716 /* Pods_WinDelivery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F44ED6BF8CE80324E367604 /* Pods_WinDeliveryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911E5FA048B4D5BC754B6C38 /* Pods_WinDeliveryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02F75170297E39001B6DF7D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC71B377488150F389B78971 /* Pods-WinDelivery.debug.xcconfig */,
+				A4C93BFBDACB6AEF6E95BA0E /* Pods-WinDelivery.release.xcconfig */,
+				983B9809C2007704BA147B20 /* Pods-WinDeliveryTests.debug.xcconfig */,
+				C0BD1A7E05D34645E6ADDDB3 /* Pods-WinDeliveryTests.release.xcconfig */,
+				6A77A60DFE374DA9585B8CE5 /* Pods-WinDeliveryUITests.debug.xcconfig */,
+				0A3DA32ABEC89F1EDEC82E0E /* Pods-WinDeliveryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6A0F033121F2BB6B0035A922 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				6A0F035121F2BB6D0035A922 /* WinDeliveryTests */,
 				6A0F035C21F2BB6D0035A922 /* WinDeliveryUITests */,
 				6A0F033B21F2BB6B0035A922 /* Products */,
+				02F75170297E39001B6DF7D3 /* Pods */,
+				9D753AAF9589F7C78389CE08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,18 @@
 		6A0F033C21F2BB6B0035A922 /* WinDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				6A76DAC021F5084000791ACD /* OrderFormViewController.swift */,
+				6A0F036B21F2BBC90035A922 /* LoginViewController.swift */,
 				6A0F033D21F2BB6B0035A922 /* AppDelegate.swift */,
-				6A0F033F21F2BB6B0035A922 /* ViewController.swift */,
 				6A0F034121F2BB6B0035A922 /* Main.storyboard */,
+				6A6F4BDD21F36520001514D3 /* orderCell.swift */,
+				6A0F036D21F2EFEB0035A922 /* File.swift */,
 				6A0F034421F2BB6D0035A922 /* Assets.xcassets */,
 				6A0F034621F2BB6D0035A922 /* LaunchScreen.storyboard */,
 				6A0F034921F2BB6D0035A922 /* Info.plist */,
+				6A6F4BDB21F34599001514D3 /* DashBoardViewController.swift */,
+				6ADDCB4421F7169C00384682 /* RegisterViewController.swift */,
+				6A7889B221F888BB00E710F4 /* order.swift */,
 			);
 			path = WinDelivery;
 			sourceTree = "<group>";
@@ -125,6 +173,16 @@
 			path = WinDeliveryUITests;
 			sourceTree = "<group>";
 		};
+		9D753AAF9589F7C78389CE08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D656642A7D33B01E0AC9BF9 /* Pods_WinDelivery.framework */,
+				C524319E9900B47DBADD2AE9 /* Pods_WinDeliveryTests.framework */,
+				9316AFEE139C7A9C1A8E6170 /* Pods_WinDeliveryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0F036221F2BB6D0035A922 /* Build configuration list for PBXNativeTarget "WinDelivery" */;
 			buildPhases = (
+				FF5B3CD6B090D6C228B21A69 /* [CP] Check Pods Manifest.lock */,
 				6A0F033621F2BB6B0035A922 /* Sources */,
 				6A0F033721F2BB6B0035A922 /* Frameworks */,
 				6A0F033821F2BB6B0035A922 /* Resources */,
+				9BED4CCE21D0EBAA75DB05D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0F036521F2BB6D0035A922 /* Build configuration list for PBXNativeTarget "WinDeliveryTests" */;
 			buildPhases = (
+				5971715AC67E6C12C87A4239 /* [CP] Check Pods Manifest.lock */,
 				6A0F034A21F2BB6D0035A922 /* Sources */,
 				6A0F034B21F2BB6D0035A922 /* Frameworks */,
 				6A0F034C21F2BB6D0035A922 /* Resources */,
@@ -167,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0F036821F2BB6D0035A922 /* Build configuration list for PBXNativeTarget "WinDeliveryUITests" */;
 			buildPhases = (
+				C1DBAA9BF49B783B9429DA55 /* [CP] Check Pods Manifest.lock */,
 				6A0F035521F2BB6D0035A922 /* Sources */,
 				6A0F035621F2BB6D0035A922 /* Frameworks */,
 				6A0F035721F2BB6D0035A922 /* Resources */,
@@ -193,6 +255,7 @@
 				TargetAttributes = {
 					6A0F033921F2BB6B0035A922 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					6A0F034D21F2BB6D0035A922 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -251,13 +314,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5971715AC67E6C12C87A4239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WinDeliveryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BED4CCE21D0EBAA75DB05D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WinDelivery/Pods-WinDelivery-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WinDelivery/Pods-WinDelivery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1DBAA9BF49B783B9429DA55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WinDeliveryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5B3CD6B090D6C228B21A69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WinDelivery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A0F033621F2BB6B0035A922 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A0F034021F2BB6B0035A922 /* ViewController.swift in Sources */,
+				6A6F4BDE21F36520001514D3 /* orderCell.swift in Sources */,
+				6A76DAC121F5084000791ACD /* OrderFormViewController.swift in Sources */,
+				6A7889B321F888BB00E710F4 /* order.swift in Sources */,
+				6ADDCB4521F7169C00384682 /* RegisterViewController.swift in Sources */,
+				6A0F036C21F2BBC90035A922 /* LoginViewController.swift in Sources */,
+				6A0F036E21F2EFEB0035A922 /* File.swift in Sources */,
 				6A0F033E21F2BB6B0035A922 /* AppDelegate.swift in Sources */,
+				6A6F4BDC21F34599001514D3 /* DashBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +574,10 @@
 		};
 		6A0F036321F2BB6D0035A922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC71B377488150F389B78971 /* Pods-WinDelivery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WinDelivery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,6 +586,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qodehub.WinDelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,8 +595,10 @@
 		};
 		6A0F036421F2BB6D0035A922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C93BFBDACB6AEF6E95BA0E /* Pods-WinDelivery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WinDelivery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +607,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qodehub.WinDelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +615,7 @@
 		};
 		6A0F036621F2BB6D0035A922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983B9809C2007704BA147B20 /* Pods-WinDeliveryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +636,7 @@
 		};
 		6A0F036721F2BB6D0035A922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BD1A7E05D34645E6ADDDB3 /* Pods-WinDeliveryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +657,7 @@
 		};
 		6A0F036921F2BB6D0035A922 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A77A60DFE374DA9585B8CE5 /* Pods-WinDeliveryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +677,7 @@
 		};
 		6A0F036A21F2BB6D0035A922 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3DA32ABEC89F1EDEC82E0E /* Pods-WinDeliveryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
