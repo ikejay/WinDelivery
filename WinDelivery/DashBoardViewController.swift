@@ -20,19 +20,26 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let numberPhone = UserDefaults.standard.value(forKey: "mobileNumber")
+        
+        let myPassword = UserDefaults.standard.value(forKey: "password")
+        
         infoTableView.estimatedRowHeight = 180
         infoTableView.rowHeight = 153
         infoTableView.separatorColor = UIColor.clear
         infoTableView.separatorStyle = UITableViewCellSeparatorStyle.none
         
         
-        Alamofire.request("https://poba.tech/windelivery/public/api/v1/auth/login", method: .post, parameters: ["phone":"0275799028",
-                        "password":"secret",
+        Alamofire.request("https://poba.tech/windelivery/public/api/v1/auth/login", method: .post, parameters: ["phone": numberPhone ?? "",
+                         "password": myPassword ?? "",
                         "fcm_device_id":"kgfvluyt"])
         
             .responseJSON{ response in
                 
                 let myValue = JSON(response.result.value!)
+                
+                
+                
 //                print(myValue)
            
                 
@@ -43,10 +50,10 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
                         
                         let mValue = JSON(response.result.value!)
                        
-                        if(myValue["success"].stringValue == "true"){
+                        if(mValue["success"].stringValue == "true"){
                             let result = response.result
                             if let dict = result.value as? Dictionary<String,AnyObject>{
-                                if let innerDict = dict["data"]{
+                                if let innerDict = dict["service"]{
                                     self.actorsArray = innerDict as! [AnyObject]
 
 
@@ -103,7 +110,7 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         let cell = infoTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! orderCell
         
         let orderDate = actorsArray[indexPath.row]["created_at"]
-        cell.orderLabel.text = orderDate as? String
+        cell.orderName.text = orderDate as? String
         return cell
     }
     

@@ -33,6 +33,8 @@ class LoginViewController: UIViewController {
         let myNumber = phoneNumField.text!
         let myPassword = passwordField.text!
         
+        
+        
         Alamofire.request("https://poba.tech/windelivery/public/api/v1/auth/login",
                           method: .post,
                           parameters: ["phone": myNumber, "password": myPassword,
@@ -43,6 +45,8 @@ class LoginViewController: UIViewController {
                 
                 
                 if value["success"].stringValue == "true"{
+                    
+                    self.remember()
 //
                  //   let alert = UIAlertController(title: "Error", message: "Your Name Is: \(value["data"]["user"]["name"].stringValue)", preferredStyle: .alert)
                     
@@ -83,4 +87,13 @@ class LoginViewController: UIViewController {
     
 
 }
+    
+    func remember(){
+        
+        UserDefaults.standard.set(phoneNumField.text, forKey: "mobileNumber")
+        UserDefaults.standard.set(passwordField.text, forKey: "password")
+        
+    }
+    
+    
 }

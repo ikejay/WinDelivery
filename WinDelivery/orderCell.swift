@@ -9,17 +9,22 @@
 import UIKit
 
 class orderCell: UITableViewCell {
-    @IBOutlet weak var orderLabel: UILabel!
-    @IBOutlet weak var detailLabel: UILabel!
-    @IBOutlet weak var sizeLabel: UILabel!
-    @IBOutlet weak var amountLabel: UILabel!
-    @IBOutlet weak var statusLabel: UILabel!
+   
+    @IBOutlet weak var orderName: UILabel!
+    @IBOutlet weak var serviceID: UILabel!
+    @IBOutlet weak var deliveryName: UILabel!
+    @IBOutlet weak var status: UILabel!
+    @IBOutlet weak var totalAmount: UILabel!
+    @IBOutlet weak var dateCreated: UILabel!
+    
+    
+    
     
     var date = ""
     var detail = ""
     var size = ""
     var amount = ""
-    var status = ""
+    var mystatus = ""
    
     
     
